@@ -12,6 +12,7 @@
 		AA066F102C5B57DE00A5CC88 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA066F0F2C5B57DE00A5CC88 /* Person.swift */; };
 		AA066F122C5B591000A5CC88 /* Intensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA066F112C5B591000A5CC88 /* Intensity.swift */; };
 		AA066F142C5B599A00A5CC88 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA066F132C5B599A00A5CC88 /* Activity.swift */; };
+		AA066F162C5B5BD600A5CC88 /* MagicNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA066F152C5B5BD600A5CC88 /* MagicNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		AA066F0F2C5B57DE00A5CC88 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AA066F112C5B591000A5CC88 /* Intensity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intensity.swift; sourceTree = "<group>"; };
 		AA066F132C5B599A00A5CC88 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		AA066F152C5B5BD600A5CC88 /* MagicNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				AA066F0F2C5B57DE00A5CC88 /* Person.swift */,
 				AA066F132C5B599A00A5CC88 /* Activity.swift */,
 				AA066F112C5B591000A5CC88 /* Intensity.swift */,
+				AA066F152C5B5BD600A5CC88 /* MagicNumber.swift */,
 				34811DE7274B93FB00A1E994 /* main.swift */,
 			);
 			path = CodeStarterCamp_Week4;
@@ -136,6 +139,7 @@
 				AA066F102C5B57DE00A5CC88 /* Person.swift in Sources */,
 				34811DE8274B93FB00A1E994 /* main.swift in Sources */,
 				AA066F0E2C5B573300A5CC88 /* BodyCondition.swift in Sources */,
+				AA066F162C5B5BD600A5CC88 /* MagicNumber.swift in Sources */,
 				AA066F122C5B591000A5CC88 /* Intensity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
