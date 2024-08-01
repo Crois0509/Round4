@@ -8,9 +8,10 @@ func exerciseRoutine(in person: BodyCondition, take exercise: [Activity]) {
             exerciseNames.append(exerciseName.name)
         }
         
+        print(MagicNumber.blankPage)
         print("운동 루틴을 시작합니다.")
         print("##오늘의 운동 루틴##")
-        print(exerciseNames.joined(separator: ", "))
+        print(exerciseNames.joined(separator: " -> "))
         
         while person.피로도 < 100 {
             for routine in exercise {
