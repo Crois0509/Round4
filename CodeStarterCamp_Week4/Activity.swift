@@ -5,7 +5,7 @@ struct Activity {
     var action: (BodyCondition) -> Void
     
     func startExercise(_ bodyCondition: BodyCondition) {
-        print(" ")
+        print(MagicNumber.blankPage)
         print("<<\(name)을(를) 시작합니다>>")
         action(bodyCondition)
     }

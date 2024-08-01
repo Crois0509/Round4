@@ -33,6 +33,7 @@ class BodyCondition {
     }
     
     func currentBodyCondition() {
+        print(MagicNumber.blankPage)
         print("""
             -----------
             현재의 컨디션은 다음과 같습니다.
