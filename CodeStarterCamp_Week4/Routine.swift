@@ -17,7 +17,6 @@ func exerciseRoutine(in person: BodyCondition, take exercise: [Activity]) {
                 guard person.피로도 < 100 else {
                     print(MagicNumber.blankPage)
                     print("피로도가 최대치에 도달하여 운동 루틴을 멈춥니다.")
-                    print(MagicNumber.blankPage)
                     break
                 }
                 routine.startExercise(person)
