@@ -18,6 +18,9 @@ class BodyCondition {
     }
     var 피로도: Int {
         didSet {
+            while 피로도 > 100 {
+                피로도 += -1
+            }
             print("피로도 변화량: \(oldValue) -> \(피로도)")
         }
     }
